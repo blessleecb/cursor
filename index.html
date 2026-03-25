@@ -3,20 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>오늘의 명언 (Quote of the Day)</title>
+    <title>Quote of the Day | Apple Style</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="quote-container">
-        <div class="quote-content">
-            <p id="quote-text">"로딩 중..."</p>
-            <p id="quote-author">- 작가 -</p>
-        </div>
-        <div class="button-group">
-            <button id="prev-btn">이전 명언</button>
-            <button id="random-btn">랜덤 명언</button>
-            <button id="next-btn">다음 명언</button>
-        </div>
+    <div class="main-wrapper">
+        <section class="quote-section card">
+            <div class="quote-header">
+                <span class="badge">오늘의 명언</span>
+            </div>
+            <div class="quote-content">
+                <p id="quote-text">"로딩 중..."</p>
+                <p id="quote-author">- 작가 -</p>
+            </div>
+            <div class="button-group">
+                <button id="prev-btn" class="secondary-btn">이전 명언</button>
+                <button id="random-btn" class="primary-btn">랜덤 명언</button>
+                <button id="next-btn" class="secondary-btn">다음 명언</button>
+            </div>
+        </section>
+
+        <section class="career-section card">
+            <div class="career-header">
+                <h2>제작자 이력</h2>
+            </div>
+            <div class="career-body">
+                <div class="career-item">
+                    <span class="role">솔루션 컨설턴트 & 엔지니어</span>
+                    <span class="duration">경력 15년</span>
+                </div>
+                <div class="education">
+                    지방 4년대 졸업
+                </div>
+            </div>
+        </section>
     </div>
     <script src="script.js"></script>
 </body>
